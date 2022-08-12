@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Argentina-Mate</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <script src="./javascript/bootstrap.bundle.min.js"></script>
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  <script src="./javascript/main.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="nav">
+
+    <div class="nav--logo">
+      <img src="./img/logo.jpg" alt="" width="120px" height="80px">
+    </div>
+
+    <div class="nav--der">
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+          data-bs-toggle="dropdown" aria-expanded="false">
+          Comprar
+        </button>
+        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+          <div>
+            <li><a class="dropdown-item active" href="#">Crea tu cuenta</a></li>
+            <label for="nombre">Email:</label>
+            <input type="email" id="nombre" />
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" />
+
+            <label for="nombre">Contraseña</label>
+            <input type="password" id="password" />
+
+            <input type="button" onclick="guardarDatos()" value="Guardar datos" />
+
+          </div>
+
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="https://open.spotify.com/">Spotify</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+
+  </div>
+
+  <header class="header">
+
+    <img class="header__img" src="./img/back.jpg" alt="">
+
+  </header>
+
+  <section class="section">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-4 section__colum">
+          <i class="section__icon ri-plane-line"></i>
+          <h5 class="section__tit">ENVIOS NACIONALES E INTERNACIONALES</h5>
+        </div>
+
+        <div class="col-4 section__colum">
+          <i class="section__icon ri-bank-card-line" style="background-color: #2196f3;"></i>
+          <h5 class="section__tit">TODOS LOS MEDIOS DE PAGO</h5>
+        </div>
+
+        <div class="col-4 section__colum">
+          <i class="section__icon ri-surgical-mask-fill" style="background-color:#9c27b0 ;"></i>
+          <h5 class="section__tit">SITIO SEGURO</h5>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div>
+      <span class="section-title">Nuestros productos</span>
+    </div>
+
+    <main>
+
+      <div class="container main">
+        <div class="row">
+          
+          <main id="items" class="col-sm-8 row"></main>
+          
+          <aside class="col-sm-4 main__carrito">
+            <h2>Carrito</h2>
+            
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+           
+            <p class="text-right">Total: &dollar;<span id="total"></span></p>
+            <button id="boton-vaciar" class="btn btn-success">Vaciar</button>
+
+            
+            <main id="items" class="col-sm-8 row"></main>
+            <div class="row main__like" id="main__like">
+              
+              <aside class="">
+                <h2 class="main__like--tit">Productos que te gustan</h2>
+                
+                <ul id="favoritos" class="list-group"></ul>
+                <hr>
+
+              </aside>
+            </div>
+          </aside>
+        </div>
+
+
+
+      </div>
+
+    </main>
+
+    <div class="container">
+
+      <div class="row mt-3">
+        <div class="col">
+          <h2>Listado de productos</h2>
+          <div class="ny-3">
+            <table class="lista-produc table table-sm">
+              <thead>
+                <tr>
+                  <th scope="col">Producto</th>
+                  <th scope="col">Marca</th>
+                  <th scope="col">Stock</th>
+                  <th scope="col">Precio</th>
+                </tr>
+              </thead>
+            </table>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-sm-3 footer__col">
+          <div class="footer__img">
+            <img class="footer__img" src="./img/logo.jpg" alt="" width="120px" height="80px">
+          </div>
+
+          <div>
+            <ul class="footer__cont">
+              <li>
+                <i class=" ri-map-pin-line">
+                  <h6> Rondeau 310, Cordoba</h6>
+                </i>
+
+
+              </li>
+              <li>
+                <i class="ri-phone-fill">
+                  <h6>3512302418</h6>
+                </i>
+
+              </li>
+              <li>
+                <i class="ri-message-line">
+                  <h6>info@argMate.com</h6>
+                </i>
+
+              </li>
+            </ul>
+
+            <div class="footer__logo">
+              <i class="footer__logo--icon ri-whatsapp-line"></i>
+              <i class="footer__logo--icon ri-instagram-line"></i>
+              <i class="footer__logo--icon ri-facebook-line"></i>
+              <i class="footer__logo--icon ri-spotify-line"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-3 footer__col">
+          <h2 class="footer__img">Horarios</h2>
+
+          <div>
+            <ul class="footer__cont">
+              <li>Lunes a Viernes</li>
+              <li>10:00 a 20:00 hs</li>
+              <li>Sábado</li>
+              <li>10:00 a 13:00 hs</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-sm-3 footer__col">
+          <H2 class="footer__img">Elegí como pagar</H2>
+          <div>
+            <img decoding="async"
+              src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/payment.svg"
+              class="img-container" alt="Elegí cómo pagar">
+          </div>
+
+          <span class="footer__cont">Podés pagar con tarjeta, débito, efectivo o hasta 12 cuotas sin tarjeta.</span>
+        </div>
+
+
+        <div class="col-sm-3 footer__col">
+          <h2 class="footer__img">Seguridad</h2>
+
+          <img decoding="async"
+            src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/ecosystem/protected.svg"
+            class="img-container" alt="Seguridad, de principio a fin">
+
+          <span class="footer__cont">¿No te gusta? ¡Devolvelo!, no hay nada que no puedas hacer, porque estás siempre
+            protegido.</span>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+</body>
+
+</html>

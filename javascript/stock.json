@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "producto": "Termo",
+        "marca": "Stanley",
+        "stock": 5,
+        "precio": 20000
+    },
+    {
+        "id": 2,
+        "producto": "Termo",
+        "marca": "Termolar",
+        "stock": 5,
+        "precio": 8000
+    },
+    {
+        "id": 3,
+        "producto": "Mate",
+        "marca": "Torpedo",
+        "stock": 5,
+        "precio": 3500
+    },
+    {
+        "id": 4,
+        "producto": "Mate",
+        "marca": "Imperial",
+        "stock": 5,
+        "precio": 6000
+    },
+    {
+        "id": 5,
+        "producto": "Mate",
+        "marca": "Camionero",
+        "stock": 5,
+        "precio": 2000
+    },
+    {
+        "id": 6,
+        "producto": "Yerba",
+        "marca": "Canarias",
+        "stock": 5,
+        "precio": 500
+    },
+    {
+        "id": 7,
+        "producto": "Yerba",
+        "marca": "Rei verde",
+        "stock": 5,
+        "precio": 700
+    },
+    {
+        "id": 8,
+        "producto": "Canasta cuero",
+        "marca": "Cuadrada",
+        "stock": 5,
+        "precio": 3000
+    },
+    {
+        "id": 9,
+        "producto": "Canasta cuero",
+        "marca": "Doble",
+        "stock": 5,
+        "precio": 2500
+    },
+    {
+        "id": 10,
+        "producto": "Bombilla",
+        "marca": "Pico loro alpaca",
+        "stock": 5,
+        "precio": 900
+    },
+    {
+        " id": 11,
+        "producto": "Bombilla",
+        "marca": "Bombillon artesanal",
+        "stock": 5,
+        "precio": 1200
+    },
+    {
+        "id": 12,
+        "producto": "Combo",
+        "marca": "combo 1",
+        "stock": 5,
+        "precio": 12000
+    }
+]
